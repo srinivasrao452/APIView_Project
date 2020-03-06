@@ -1,5 +1,6 @@
 
 from django.db import models
+# This is comment
 
 class Employee(models.Model):
     eno = models.IntegerField(primary_key=True)
